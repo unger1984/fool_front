@@ -1,0 +1,19 @@
+name: fool_front
+description: Front to fool card game.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  web_socket_channel: ^2.4.0
+
+dev_dependencies:
+  dart_code_metrics_presets: ^2.5.0
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
